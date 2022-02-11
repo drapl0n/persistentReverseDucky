@@ -9,7 +9,7 @@
 
 ## persistentReverseDucky: provides you persistent reverse shell remotely/locally by creating non-root systemd service within 10 secs.
 
-* Note change ip address(0.0.0.0) and port number(4.4.4.4) to your server's ip address and port number.
+* Note change ip address(0.0.0.0) and port number(4444) to your server's ip address and port number.
 * Only for educational purpose.
 ### Workflow:
 Keeping tracks clear by disabling and deleting history. Creating hidden directory to store payload. Creating payload which checks whether internet is connected to the target system, if yes then it creates reverse shell to attackers machine. Creating non-root systemd service to keep payload running in background. Enabling service. Autostarting service on trigger of terminal emulator or shell. 
